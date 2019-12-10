@@ -7,8 +7,9 @@
     <title>Painel Administrativo</title>
     <!-- css -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
-<body>
+<body class="d-flex flex-column">
     <!-- Emmet command to create two divs with id attribute = div#header+div#main -->
     <div id="header">
         <!-- Emmet command to create tag below with classes = nav.navbar.navbar-expand-lg.navbar-dark.bg-dark>a.navbar-brand -->
@@ -23,7 +24,7 @@
         <div class="row">
             <div class="col">
                 <!-- Emmet commnand = ul.nav.nav-pills.bg-secondary.text-withe -->
-                <ul class="nav flex-column nav-pills bg-secondary text-with p-2">
+                <ul id="main-menu" class="nav flex-column nav-pills bg-secondary text-with p-2">
                     <!-- Emmet command = li.nav-item*3>a.nav-link -->
                     <li class="nav-item">
                         <span href="" class="nav-link text-white-50">
@@ -38,7 +39,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-10">
+            <div id="content" class="col-10">
                 <?php include $content ?>
             </div>
         </div>
