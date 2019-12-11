@@ -13,7 +13,7 @@
     <!-- Emmet command to create two divs with id attribute = div#header+div#main -->
     <div id="header">
         <!-- Emmet command to create tag below with classes = nav.navbar.navbar-expand-lg.navbar-dark.bg-dark>a.navbar-brand -->
-        <nav class="navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar-expand-lg navbar-dark bg-dark p-2">
             <a href="" class="navbar-brand">Admin site</a>
             <!-- Emmet command = span.navbar-text -->
             <span class="navbar-text">Painel Administrativo do Sistema</span>
