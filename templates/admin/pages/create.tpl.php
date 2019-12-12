@@ -4,7 +4,7 @@
     <div class="form-group">
         <!-- Emmet command = label+input.form-control -->
         <label for="pagesTitle">Título</label>
-        <input id="pagesTitle" class="form-control" name="title" type="text" placeholder="Aqui vai título da página...">
+        <input id="pagesTitle" class="form-control" name="title" type="text" placeholder="Aqui vai título da página..." required>
     </div>
 
     <div class="form-group">
@@ -18,7 +18,9 @@
     </div>
 
     <div class="form-group">
-        <!-- editor de texto -->
+        <!-- Usado biblioteca Trix. Emmet command = trix-editor -->
+        <input id="pagesBody" name="body" type="hidden" required>
+        <trix-editor input="pagesBody"></trix-editor>
     </div>
     <!-- Emmet command = button:submit.btn.btn-primary -->
     <button type="submit" class="btn btn-primary">Salvar</button><hr>
