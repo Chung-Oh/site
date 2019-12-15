@@ -1,4 +1,4 @@
-<h3>Administração de páginas.</h3>
+<h3 class="mb-5">Npva página.</h3>
 
 <form action="" method="POST">
     <div class="form-group">
